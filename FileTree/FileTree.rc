@@ -1,11 +1,11 @@
-//Microsoft Visual C++ ���ɵ���Դ�ű���
+//Microsoft Visual C++ 生成的资源脚本。
 //
 #include "resource.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
 //
-// �� TEXTINCLUDE 2 ��Դ���ɡ�
+// 从 TEXTINCLUDE 2 资源生成。
 //
 #ifndef APSTUDIO_INVOKED
 #include "targetver.h"
@@ -22,36 +22,36 @@ LANGUAGE 4, 2
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// ͼ��
+// 图标
 //
 
-// ID ֵ��͵�ͼ�������ǰ�棬��ȷ��Ӧ�ó���ͼ��
-// ������ϵͳ�б���һ�¡�
+// ID 值最低的图标放在最前面，以确保应用程序图标
+// 在所有系统中保持一致。
 
 IDI_FILETREE       ICON         "FileTree.ico"
 IDI_SMALL               ICON         "small.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// �˵�
+// 菜单
 //
 
 IDC_FILETREE MENU
 BEGIN
-    POPUP "�ļ�(&F)"
+    POPUP "文件(&F)"
     BEGIN
-        MENUITEM "�˳�(&X)",                IDM_EXIT
+        MENUITEM "退出(&X)",                IDM_EXIT
     END
-    POPUP "����(&H)"
+    POPUP "帮助(&H)"
     BEGIN
-        MENUITEM "����(&A) ...",           IDM_ABOUT
+        MENUITEM "关于(&A) ...",           IDM_ABOUT
     END
 END
 
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// ��ݼ�
+// 快捷键
 //
 
 IDC_FILETREE ACCELERATORS
@@ -63,18 +63,18 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// �Ի���
+// 对话框
 //
 
 IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "���� FileTree"
+CAPTION "关于 FileTree"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
-    LTEXT           "FileTree��1.0 ��",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "FileTree，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
-    DEFPUSHBUTTON   "ȷ��",IDOK,113,41,50,14,WS_GROUP
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
 END
 
 /////////////////////////////////////////////////////////////////////////////
@@ -126,7 +126,7 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// �ַ�����
+// 字符串表
 //
 
 STRINGTABLE
@@ -143,8 +143,8 @@ END
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
 //
-// �� TEXTINCLUDE 3 ��Դ���ɡ�
+// 从 TEXTINCLUDE 3 资源生成。
 //
 
 /////////////////////////////////////////////////////////////////////////////
-#endif    // ���� APSTUDIO_INVOKED
+#endif    // 不是 APSTUDIO_INVOKED

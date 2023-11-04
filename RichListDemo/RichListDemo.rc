@@ -1,11 +1,11 @@
-//Microsoft Visual C++ Éú³ÉµÄ×ÊÔ´½Å±¾¡£
+//Microsoft Visual C++ ï¿½ï¿½ï¿½Éµï¿½ï¿½ï¿½Ô´ï¿½Å±ï¿½ï¿½ï¿½
 //
 #include "resource.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
 //
-// ´Ó TEXTINCLUDE 2 ×ÊÔ´Éú³É¡£
+// ï¿½ï¿½ TEXTINCLUDE 2 ï¿½ï¿½Ô´ï¿½ï¿½ï¿½É¡ï¿½
 //
 #define APSTUDIO_HIDDEN_SYMBOLS
 #include "windows.h"
@@ -19,36 +19,36 @@ LANGUAGE 4, 2
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Í¼±ê
+// Í¼ï¿½ï¿½
 //
 
-// ID Öµ×îµÍµÄÍ¼±ê·ÅÔÚ×îÇ°Ãæ£¬ÒÔÈ·±£Ó¦ÓÃ³ÌÐòÍ¼±ê
-// ÔÚËùÓÐÏµÍ³ÖÐ±£³ÖÒ»ÖÂ¡£
+// ID Öµï¿½ï¿½Íµï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½æ£¬ï¿½ï¿½È·ï¿½ï¿½Ó¦ï¿½Ã³ï¿½ï¿½ï¿½Í¼ï¿½ï¿½
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½Ð±ï¿½ï¿½ï¿½Ò»ï¿½Â¡ï¿½
 
 IDI_RICHLISTDEMO       ICON         "RichListDemo.ico"
 IDI_SMALL               ICON         "small.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// ²Ëµ¥
+// ï¿½Ëµï¿½
 //
 
 IDC_RICHLISTDEMO MENU
 BEGIN
-    POPUP "ÎÄ¼þ(&F)"
+    POPUP "ï¿½Ä¼ï¿½(&F)"
     BEGIN
-        MENUITEM "ÍË³ö(&X)",                IDM_EXIT
+        MENUITEM "ï¿½Ë³ï¿½(&X)",                IDM_EXIT
     END
-    POPUP "°ïÖú(&H)"
+    POPUP "ï¿½ï¿½ï¿½ï¿½(&H)"
     BEGIN
-        MENUITEM "¹ØÓÚ(&A) ...",           IDM_ABOUT
+        MENUITEM "ï¿½ï¿½ï¿½ï¿½(&A) ...",           IDM_ABOUT
     END
 END
 
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// ¿ì½Ý¼ü
+// ï¿½ï¿½Ý¼ï¿½
 //
 
 IDC_RICHLISTDEMO ACCELERATORS
@@ -60,18 +60,18 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// ¶Ô»°¿ò
+// ï¿½Ô»ï¿½ï¿½ï¿½
 //
 
 IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "¹ØÓÚ RichListDemo"
+CAPTION "ï¿½ï¿½ï¿½ï¿½ RichListDemo"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
-    LTEXT           "RichListDemo£¬1.0 °æ",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "RichListDemoï¿½ï¿½1.0 ï¿½ï¿½",IDC_STATIC,42,14,114,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
-    DEFPUSHBUTTON   "È·¶¨",IDOK,113,41,50,14,WS_GROUP
+    DEFPUSHBUTTON   "È·ï¿½ï¿½",IDOK,113,41,50,14,WS_GROUP
 END
 
 /////////////////////////////////////////////////////////////////////////////
@@ -123,7 +123,7 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// ×Ö·û´®±í
+// ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
 //
 
 STRINGTABLE
@@ -140,8 +140,8 @@ END
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
 //
-// ´Ó TEXTINCLUDE 3 ×ÊÔ´Éú³É¡£
+// ï¿½ï¿½ TEXTINCLUDE 3 ï¿½ï¿½Ô´ï¿½ï¿½ï¿½É¡ï¿½
 //
 
 /////////////////////////////////////////////////////////////////////////////
-#endif    // ²»ÊÇ APSTUDIO_INVOKED
+#endif    // ï¿½ï¿½ï¿½ï¿½ APSTUDIO_INVOKED
