@@ -29,3 +29,5 @@ QQDemo/Debug/mt.dep
 *.dep
 *.map
 cmake-build/
+.vs
+out/
