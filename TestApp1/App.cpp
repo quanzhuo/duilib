@@ -438,7 +438,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPSTR /*l
 {
     CPaintManagerUI::SetInstance(hInstance);
     CDuiString resourcePath = CPaintManagerUI::GetInstancePath();
-    resourcePath.Append(_T("../../../bin"));
+    resourcePath.Append(_T("../../bin"));
     CPaintManagerUI::SetResourcePath(resourcePath.GetData());
 
     HRESULT Hr = ::CoInitialize(NULL);
